@@ -52,13 +52,6 @@ PersonManager.prototype.Initialize = function(data){
   me.CSSvalue = 2048;
   me.getTopGeneration(this.gen);
   this.setBorderColor();
-
-  for(var i = 0; i < 15; i++){
-    this.people.push(this.people[i]);
-  }
-
-
-
     
   return;
 }

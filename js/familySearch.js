@@ -1,3 +1,4 @@
+/*
 FamilySearch.init({
 	client_id: 'NQ3Q-PBD8-LL9N-RCLZ-MZCZ-X7P8-7SMX-RD6N',
 	environment: 'production',
@@ -7,6 +8,18 @@ FamilySearch.init({
 	//save_access_token: true,
 	//auto_expire: true
 });
+*/
+
+FamilySearch.init({
+	client_id: 'W73Y-DRXM-C4QH-Z9ZV-XX93-YC1R-N9BN-6TPL',
+	environment: 'beta',
+	redirect_uri: 'http://ancestor-squares.fhtl.byu.edu/',
+	http_function: $.ajax,
+	deferred_function: $.Deferred//,
+	//save_access_token: true,
+	//auto_expire: true
+});
+
 
 function authenticate(){
 	var defer = $.Deferred();
